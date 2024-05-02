@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El mundo de las plantas</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <!-- //header -->
+    <nav class="nav">
+        <div class="nav_container">
+            <label for="menu" class="nav_label">
+                <img src="./assets/menu.svg" alt="nav_img">
+            </label>
+            <input type="checkbox" id="menu" class="nav_input">
+
+            <div class="nav_menu">
+                <a href="#section-categorias" class="nav_item">categorias</a>
+                <a href=""class="nav_item">inicio</a>
+                <a href=""class="nav_item">contacto</a>
+            </div>
+
+            <h1>El mundo de las plantas</h1>
+
+            <div class="car_shopping">
+                <a id="carShopping"></a>
+                <span id="contador_productos_cart">0</span>
+            </div>
+           <!-- <input type="checkbox" id="car" class="nav_input_car">-->
+        </div>
+    </nav>
+    
+   <!--  //Foto y titulo principal -->
+        <section class="contenedor_section_uno_principal">
+            <div class="lado-uno-section-principal">
+                <h1 class="titulo_pagina_principal">Encuentra las plantas perfectas</h1>
+                <p class="parrafo_pagina_principal">Tenemos una gran variedad de plantas a un precio increible</p>
+                <!-- <div class="contenedor_button_compras">
+                    <a type="button" class="compra_pagina_principal" href="./registro.html">Comprar</a>
+                </div> -->
+              </div>
+            </section>
+        
+        
+  <!--   //slider -->
+        <h3 id="section-categorias" class="titulo_category_pagina_principal" >Categorias</h3>
+        <section class="contenedor-slider">
+            <div class="slider">
+                <img src="./assets/avedelparaiso.webp" alt="planta">
+                <a  href="../HTML/interior.html">Interior</a>
+            </div>
+            <div class="slider">
+                <img  src="./assets/Buganvilla-Violeta.jpg" alt="planta">
+                <a type="button" href="./exterior.html">Exterior</a>
+            </div>
+            <div class="slider">
+                <img src="./assets/cactus3.jpg" alt="planta">
+                <a href="../HTML/cactus.html">Cactus</a>
+            </div>
+        </section>
+
+    <!-- //opiniones -->
+        <section class="cards_opiniones">
+            <h2 class="titulo_testimonios">Testimonios</h2>
+            <h4 class="h4_testimonios">Valoramos enormemente sus opiniones.La retroalimentacion de los clientes es vital para nuestro crecimiento</h4>
+            <div class="container_cards">
+            <div class="card">
+                <img class="imagenes_cards_opiniones"  src="https://1.bp.blogspot.com/-jIdt7cCqPng/XjpdI42xb-I/AAAAAAAADrM/hScIcolEkKY2BDP5Uw3UQO33u2Aj9MegQCLcBGAsYHQ/s1600/b5ece62825677da0fad9c1db2370947d.jpg" alt="imagen cliente">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, inventore modi. Maxime aspernatur atque eaque nihil inventore, enim impedit autem, harum perferendis, molestias odio voluptate eum vero. Doloribus, repellat ea.</p>
+                <h5>Pamela Ramirez</h5>
+            </div>
+            <div class="card">
+                <img class="imagenes_cards_opiniones" src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1576497340/content-items/003/518/329/_MG_5442-original.jpg?1576497340" alt="imagen cliente">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, inventore modi. Maxime aspernatur atque eaque nihil inventore, enim impedit autem, harum perferendis, molestias odio voluptate eum vero. Doloribus, repellat ea.</p>
+                <h5>Armando Lopez</h5>
+            </div>
+            <div class="card">
+                <img class="imagenes_cards_opiniones"  src="https://www.dzoom.org.es/wp-content/uploads/2020/02/portada-foto-perfil-redes-sociales-consejos-810x540.jpg" alt="imagen cliente">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, inventore modi. Maxime aspernatur atque eaque nihil inventore, enim impedit autem, harum perferendis, molestias odio voluptate eum vero. Doloribus, repellat ea.</p>
+                <h5>Salome Ruiz</h5>
+            </div>
+            <div class="card">
+                <img class="imagenes_cards_opiniones"  src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1576497340/content-items/003/518/329/_MG_5442-original.jpg?1576497340" alt="imagen cliente" alt="imagen cliente">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, inventore modi. Maxime aspernatur atque eaque nihil inventore, enim impedit autem, harum perferendis, molestias odio voluptate eum vero. Doloribus, repellat ea.</p>
+                <h5>Luis Paez</h5>
+            </div>
+        </div>
+        </section>
+
+    <!-- //section promocion instagram -->
+        <div class="promocion_instagram">
+            <a type="button" href='https://www.instagram.com/velandia.lina/' class="enlace_insta">Siguenos en instagram y aprovecha de las promociones<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAYAAAAeYmHpAAAAAXNSR0IArs4c6QAABMZJREFUaEPtWs1OFEEQrppZYjzsavRijImgC/HoGwBP4MmTB0FY4wuYeFPeQnch6MnEkw+gYXkBE28EFlkPegWWo8y06R5HZ3t7uqp7ZhkiOxdCdqa7v/7q56vqRriAD15AzDABfVFYnzA9Yfo/3oGxmPe9Z1en5Z6dnoL66/vUatCX3+68PlJ/y3oKg5YAT+N4CYSYB8CFshamjyMg2QBEeAdx0O2tH3V95/IG3XzaeAUCXvpOXPQ7uQkBiLW9zslb17GcQStmo2hznKy6gJDg9zuDGZdvnEA3V68uAMZbnAlSc7S9iyCUyQrAXN9HoOOCnGsqDBa5vs8GnTAcH5hBiC4gbhf1NdPYaVCMomghBpxHENMmK3NhnA262apv6ZO57jDHQjjv5MUTAfB2vzNYpsZggZ5t1ZcE4GZ2MO4E1AJ8f8+NLSJYpCI7C/TdVuNg2LdEt9c5WfRdsPN3DyGcu375xmk0dRNjONzfGPTkGGaXo9dGgjaxDIzddAaW88Gtlca1SyG+QCGeqzwt4LNAbPc6xx/k/yZTr4XBjC2okaDvthqbCLCUrumszbq5Wn8AiB+ze4IA/QjD+9/ah8dGtglSOKCHTBtBLPsIAl/mm6uNl4DwSv8+CIL7u2+Oviq2R4Ks3cSdQfuadlauyrwsY0Qml3cDENthGHZ1s2yu1lcAcV0D/SVA8Wi3fbIzFtDNVkNkJ6T8RWfkH1hasspNkNq61x4MMdtsXdkAEE+SsfGH9O+99cH7dC7dr6mcbWXa5C+9zoC0jr+LcVBwWjocUlh3WvW5EHE2juF6gPhzr3P8Kfu+rhRLBU0Nll2IMeo7OLZLQWGSxzZyrKyNDkbnQOVjNoYR1hT2OFClIWI0ncjLfxkikyn6KIJlSmy4WmTpoPM1uujWwnA5L3/K735F8ZZeYHCsyzSnLfaUDlrP60nsgTU9OJksPS/oUWmyUtC+sjC7ASbGKbYrBW0KXq4pLjcmWFRWpaB1ZVREso6oLIuLVApar8YoX7RlMBdpWSnoouptSHCMNB7z0+W5Au2r080l4zkFPdJsYKYqk5m7lLQVM6330XgKLgc0u6StFLSeslTVxJCROmjX1FcpaNPklLAwlqJaq5kao1LQEkBhGWo6PSHaP5WDthUONlPPPxuj40LloCXbttOQPy0i1R4SiNNCwG1TWSnHocw6dY1SS0t9MO4i5GLKaCJwg2CpTYQioFPGTTUy3UChTZrq0nh3TpQyKqkxKAQ8pk4gXVpEvpI1Ke+JZ0T4e55uKKuR1zGCeCHxY3n6qI5pZQf0e5ETTxf1xgOtC/8C0pLaYN/fXas7mumRJp+bv/kCcfnO1QVJ0D5nRS4LLvqu6dyc6s2ToJNgNlxIuKSuoqCsjQZDq5nTreGBNvax7S3dcYJVROT11hmBlgXaxHaqmExnT+MEbDsb47DMit5ZqZcnNFQJCaIv04+SlyLsF7ntJ4FlN05dzlO7bLugxw+wbKaLKaxxcs/X6OkqnECnwJNrkfTR63ihpqPzGfYGnTX3Km8O+nZlnHw6jzXpf9TFtqKM/70MK28YIm5zzsVsczqbNxeAHoy43+nvca8+uow/NtAuizjrdyegz3rHq5pvwnRVO3/W815Ipn8D0fgNeuiM+0wAAAAASUVORK5CYII="/></a>
+        </div>
+
+    <!-- //section informacion de nosotros -->
+        <section class="datos_adicionales">
+            <div id="nosotros" class="quienes_somos">
+                <img id="imagen_logo" class="imagenes_de_adicionales" src="./assets/logo el mundo de las plantas.png" alt="">
+                <div id="card_texto_quienes_somos" class="texto_adicionales">
+                    <h2 id="titulo_quienes_somos">Quienes somos</h2>
+                    <p id="parrafo_quienes_somos" class="parrafos_de_adicionales">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolore dolor nam incidunt omnis doloremque error perspiciatis odit molestiae iusto exercitationem deserunt placeat excepturi possimus veritatis, numquam expedita labore accusantium. Quia temporibus, perspiciatis consectetur nam recusandae, facere ea deserunt necessitatibus laboriosam pariatur doloremque culpa cupiditate ratione a voluptatibus, amet vero.</p>
+                </div>  
+            </div>
+            <div id="empresas" class="empresas_terminos">
+                <div class="texto_adicionales">
+                    <h2>Empresas asociadas y terminos y condiciones</h2>
+                    <p class="parrafos_de_adicionales">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolore dolor nam incidunt omnis doloremque error perspiciatis odit molestiae iusto exercitationem deserunt placeat excepturi possimus veritatis, numquam expedita labore accusantium. Quia temporibus, perspiciatis consectetur nam recusandae, facere ea deserunt necessitatibus laboriosam pariatur doloremque culpa cupiditate ratione a voluptatibus, amet vero.</p>
+                </div>
+                <img class="imagenes_de_adicionales" src="./assets/logos-horticolas-viveros.jpg" alt="">
+            </div >
+            <div id="compra" class="como_comprar">
+                <img class="imagenes_de_adicionales" src="./assets/bancos-logos-enero2020.jpg" alt="">
+                <div class="texto_adicionales">
+                    <h2>Como comprar</h2>
+                    <p class="parrafos_de_adicionales">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolore dolor nam incidunt omnis doloremque error perspiciatis odit molestiae iusto exercitationem deserunt placeat excepturi possimus veritatis, numquam expedita labore accusantium. Quia temporibus, perspiciatis consectetur nam recusandae, facere ea deserunt necessitatibus laboriosam pariatur doloremque culpa cupiditate ratione a voluptatibus, amet vero.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="boton_para_registro">
+            <a id="aregistro" href="../HTML/registro.html">REGISTRATE</a>
+        </div>
+
+
+        <aside id='asideCar' class="product-detail">
+            <div class="title-container">
+              <img src="./assets/arrowLeft.svg" alt="arrow">
+              <p class="title">Mi pedido</p>
+            </div>
+        
+            <div class="my-order-content">
+              <div class="shopping-cart">
+                <figure>
+                  <img src="./assets/Buganvilla-Violeta.jpg" alt="Buganvilla Morada">
+                </figure>
+                <p>Buganvilla Morada</p>
+                <p>$10000</p>
+                <img src="./assets/x.svg" alt="close">
+              </div>
+        
+              <div class="shopping-cart">
+                <figure>
+                  <img src="./assets/Limonero.webp" alt="Limonero">
+                </figure>
+                <p>Limonero</p>
+                <p>$20000</p>
+                <img src="./assets/x.svg" alt="close">
+              </div>
+        
+              <div class="shopping-cart">
+                <figure>
+                  <img src="./assets/arceRojo.webp" alt="Arce Rojo">
+                </figure>
+                <p>Arce Rojo</p>
+                <p>$16000</p>
+                <img src="./assets/x.svg" alt="close">
+              </div>
+        
+              <div class="order">
+                <p>
+                  <span>Total</span>
+                </p>
+                <p>$46000</p>
+              </div>
+        
+              <button class="primary-button">
+                Verificar
+              </button>
+            </div>
+          </div>
+          </aside>
+
+
+    <!-- //footer -->
+        <footer>
+            <div class="footer-right">
+                <a  class="fa-instagram" href="https://www.instagram.com/velandia.lina/"></a>
+                <a  class="fa-twitter" href="https://twitter.com/LinaVelandia22"> </a>
+                <a  class="fa-whatsappp" href="https://www.instagram.com/velandia.lina/"></class=></a>
+                <a  class="fa-correo" href="https://www.instagram.com/velandia.lina/"> </a>
+    
+            </div>
+            <div class="footer-left">
+    
+                <p class="footer-links">
+                    <a class="link-1" href="#">Home</a>
+    
+                    <a href="#compra">Como comprar</a>
+    
+                    <a href="#empresas">Empresas asociadas</a>
+    
+                    <a href="#empresas">Terminos y condiciones</a>
+    
+                    <a href="#nosotros">Nosotros</a>
+    
+                </p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+        
+</body>
+</html>
