@@ -94,7 +94,7 @@
 .contenedor_section_uno_principal{
     display: flex;
     flex-direction: column;
-    background-image: url(https://img.fotocommunity.com/kleine-oase-e3521a38-6c86-4170-b968-de058c0071b4.jpg?height=1080);
+    background-image: url("https://img.fotocommunity.com/kleine-oase-e3521a38-6c86-4170-b968-de058c0071b4.jpg?height=1080");
     /*background-image: url(https://images.pexels.com/photos/3153522/pexels-photo-3153522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);*/
     background-repeat: no-repeat;
     justify-content: center;
